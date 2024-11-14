@@ -4,7 +4,7 @@ import React from 'react';
 function Title({ children, as }) {
     const Tag = as;
     return (
-        <React.Fragment>
+        <>
             <Tag>
                 {children}
             </Tag>
@@ -13,7 +13,7 @@ function Title({ children, as }) {
                     color: red;
                 }
             `}</style>
-        </React.Fragment>
+        </>
     );
 }
 
