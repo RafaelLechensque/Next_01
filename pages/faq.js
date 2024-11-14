@@ -1,8 +1,12 @@
-export default function HomePage() {
+import Link from 'next/link'
+
+export default function FAQPage() {
     return (
         <div>
-            <h1>Alura Cases - Home Page</h1>
-            <a href="/faq">Ir para o FAQ</a>
+            <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
+            <Link href="/">
+                Ir para a home
+            </Link>
         </div>
     )
 }
